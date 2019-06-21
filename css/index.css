@@ -1,3 +1,15 @@
+.btn {
+  background-color: #157f80;
+  width: 80%;
+  height: 15%;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom: 40px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
