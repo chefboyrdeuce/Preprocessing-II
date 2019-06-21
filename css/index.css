@@ -168,6 +168,39 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.top {
+  border-bottom: 2px dashed #C0C0C0;
+  padding: 30px 0px 30px 0px;
+}
+.top .top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+.top .navigation {
+  font-size: 1.8rem;
+  color: black;
+}
+.top .navigation a {
+  text-decoration: none;
+  color: black;
+  padding-right: 30px;
+}
+.top .navigation a a:visited {
+  text-decoration: none;
+  color: #000;
+}
+.top .navigation a a:hover {
+  text-decoration: none;
+  color: black;
+}
+.top .navigation a a:active {
+  text-decoration: none;
+  color: black;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -181,7 +214,6 @@ img {
 }
 .home .welcome-section {
   width: 100%;
-  margin: 30px 0;
   border-bottom: 2px dashed #C0C0C0;
 }
 .home .welcome-section .welcome-text-content {
