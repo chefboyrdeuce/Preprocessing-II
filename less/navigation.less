@@ -6,6 +6,12 @@
     border-bottom: 2px dashed @navigation-border;
     padding:30px 0px 30px 0px;
 
+    @media @mobile{
+        padding-top:20px;
+        padding-bottom: 10px;
+        // background-color: green;
+    }
+
     .top-content{
         display:flex;
         justify-content: space-between;
@@ -15,11 +21,21 @@
         width: 100%;
         // margin-left:112px;
         // background-color:red;
+        
+        @media @mobile{
+            display:flex;
+            flex-direction:column;
+            // background-color: green;
+        }
     }
         
 
     h1{
         // background-color: blue;
+        @media @mobile{
+            padding-bottom:15px;
+            // background-color: green;
+        }
     }
 
     .navigation{
